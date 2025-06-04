@@ -12,24 +12,18 @@ taxonomies:
 
 menu:
     main:
-        - name: Books
-          url: books/
-          weight: 5 
+        # - name: Papers
+        #   url: data/
+        #   weight: 2
         - name: Papers
           url: papers/
-          weight: 2
-        - name: Courses
-          url: courses/
-          weight: 3
-        - name: Data
-          url: data/
           weight: 4 
-        - name: Blog
-          url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        - name: DISCO
+          url: https://discolab.cs.brown.edu/
           weight: 6
 
 params:
-    description: "This website hosts Sybille Légitime's projects, papers, curriculum vitae, and contact information."
+    description: "This website hosts Sybille Légitime's papers, curriculum vitae, and contact information."
     author: Sybille Légitime
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -44,7 +38,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["books","courses","papers","data"]
+    MainSections: ["papers"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -54,16 +48,16 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Hi! I'm Sybille
-          subtitle: " I\'m a PhD student, advised by Harini Suresh at Brown University\'s Computer Science department. I\'m broadly interested in researching how communities of non-programmers –especially those in the margins of power– can collectively understand, design, implement, and evaluate AI/ML systems."
+          title: Hi 👋🏾, I'm Sybille
+          subtitle: " I\'m a PhD student in Computer Science at Brown University, advised by Harini Suresh. I\'m interested in researching how communities of non-programmers –especially those in the margins of power– can collectively understand, design, implement, and evaluate AI/ML systems. I earned my BA in International Business and Computer Science at Saint Anselm College, and my MS in Computer Science at UConn where I was advised by Derek Aguiar."
           imageUrl: "prof_pic copy 2.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
+            # - name: Papers
+            #   url: data/
             - name: Papers
               url: papers/
-            - name: Projects
-              url: data/
             - name: DISCO Lab @ Brown
               url: https://discolab.cs.brown.edu/
 
