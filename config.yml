@@ -12,9 +12,6 @@ taxonomies:
 
 menu:
     main:
-        # - name: Papers
-        #   url: data/
-        #   weight: 2
         - name: Papers
           url: papers/
           weight: 4 
@@ -54,8 +51,6 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            # - name: Papers
-            #   url: data/
             - name: Papers
               url: papers/
             - name: DISCO Lab @ Brown
