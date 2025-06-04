@@ -48,7 +48,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: Hi 👋🏾, I'm Sybille
+          title: Hi! I'm Sybille 👋🏾
           subtitle: " I\'m a PhD student in Computer Science at Brown University, advised by Harini Suresh. I\'m interested in researching how communities of non-programmers –especially those in the margins of power– can collectively understand, design, implement, and evaluate AI/ML systems. I earned my BA in International Business and Computer Science at Saint Anselm College, and my MS in Computer Science at UConn where I was advised by Derek Aguiar."
           imageUrl: "prof_pic copy 2.jpeg"
           imageWidth: 160
